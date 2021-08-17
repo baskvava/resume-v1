@@ -1,0 +1,159 @@
+@keyframes leftMoveIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        left: -150px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes rightMoveIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        left: 150px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes leftTextFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        left: -150px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes bottomUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        height: 0px;
+    }
+    to {
+        height: 64px;
+    }
+}
+
+
+.bottom-up {
+    animation: bottomUp ease 4s 0s;
+    -webkit-animation: bottomUp ease 4s 0s;
+    animation-fill-mode: forwards;
+    transition: opacity 1s ease;
+}
+
+.box-left {
+    width: 400px;
+    height: 100%;
+    position: relative;
+    animation: leftMoveIn ease 2s 0s;
+    -webkit-animation: leftMoveIn 2s 0s;
+    animation-fill-mode: forwards;
+    /* transition: opacity 1s ease; */
+}
+
+.box-right {
+    width: 400px;
+    height: 100%;
+    position: relative;
+    animation: rightMoveIn 2s 0s;
+    -webkit-animation: rightMoveIn 2s 0s ease;
+    animation-fill-mode: forwards;
+}
+
+.text-left-fade-in {
+    /* width: 400px; */
+    /* height: 100%; */
+    position: relative;
+    animation: leftMoveIn 2s 0s ease;
+    -webkit-animation: leftMoveIn 2s 0s ease;
+    animation-fill-mode: forwards;
+}
+
+.text-right-fade-in {
+    /* width: 400px;
+    height: 100%; */
+    position: relative;
+    animation: rightMoveIn 2s 0s ease;
+    -webkit-animation: rightMoveIn 2s 0s ease;
+    animation-fill-mode: forwards;
+}
+
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.boxLeft {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.boxLeft[data-visible="true"] {
+    position: relative;
+    animation: leftMoveIn 2s 0s ease;
+    -webkit-animation: leftMoveIn 2s 0s ease;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+
+.boxRight {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.boxRight[data-visible="true"] {
+    position: relative;
+    animation: rightMoveIn 2s 0s ease;
+    -webkit-animation: rightMoveIn 2s 0s ease;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+
+/* .text {
+    line-height: 30px;
+    position: absolute; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.fade-left {
+    position: absolute;
+    bottom: 0;
+    -webkit-animation: fadeIn 2s 2s;
+    animation: fadeIn 2s 2s;
+    animation-fill-mode: forwards;
+} */

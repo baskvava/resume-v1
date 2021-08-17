@@ -1,0 +1,34 @@
+import React from 'react';
+import classnames from 'classnames';
+
+const Navbar = () => {
+
+    return (
+        <div className={classnames('w-full', 'fixed', 'top-0', 'bg-gray-100', 'h-24', 'px-10', 'flex', 'z-50')}>
+            <div className={classnames('relative', 'w-full', 'flex', 'items-center')}>
+                {/* <div className={classnames('flex', 'justify-start')}> */}
+                <div className={classnames('absolute', 'left-0')}>
+                    <p className={classnames('text-3xl', 'font-bold')}>Ying-Hsuan Chen</p>
+                </div>
+                <ul className={classnames('absolute', 'flex',  'right-0', 'justify-end', 'text-base', 'uppercase')}>
+                    <li className={classnames('px-4')}>Experience</li>
+                    <li className={classnames('px-4')}>Education</li>
+                    <li className={classnames('px-4')}>Clients</li>
+                    <li className={classnames('px-4')}>Skills</li>
+                    <li className={classnames('px-4')}>Expertise</li>
+                    <li className={classnames('pl-4')}>Contact</li>
+                </ul>
+                {/* <div className={classnames('absolute', 'right-0', 'flex')}>
+                    <div>Experience</div>
+                    <div>Education<div>
+                    <div>Clients</div>
+                    <div>Skills</div>
+                    <div>Expertise</div>
+                    <div>Contact</div>
+                </div> */}
+            </div>
+        </div>
+    );
+}
+
+export default Navbar;
