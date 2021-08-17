@@ -13,7 +13,6 @@ const Navbar = () => {
                 <ul className={classnames('absolute', 'flex',  'right-0', 'justify-end', 'text-base', 'uppercase')}>
                     <li className={classnames('px-4')}>Experience</li>
                     <li className={classnames('px-4')}>Education</li>
-                    <li className={classnames('px-4')}>Clients</li>
                     <li className={classnames('px-4')}>Skills</li>
                     <li className={classnames('px-4')}>Expertise</li>
                     <li className={classnames('pl-4')}>Contact</li>
