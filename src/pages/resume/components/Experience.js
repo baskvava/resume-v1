@@ -59,12 +59,13 @@ function useIntersection(options) {
 const Experience = () => {
 
     return (
+        <div className={classnames('mt-8')} id='experience'>
       <div className={classnames('w-full')}>
-        <div className={classnames('w-full', 'py-10')}
+        {/* <div className={classnames('w-full', 'py-10')}
             style={{paddingLeft: '16.8rem'}}
         >
             <h2 className={classnames('text-2xl', 'text-bold')}>Experience</h2>
-        </div>
+        </div> */}
         {/* Lucid */}
         <div className={classnames('w-full', 'h-0.5', 'bg-gray-200')}></div>
 
@@ -186,6 +187,7 @@ const Experience = () => {
             </div>
 
         {/* </Box> */}
+      </div>
       </div>
     );
   }

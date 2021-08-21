@@ -16,8 +16,14 @@ const Resume = () => {
       {/* <Container> */}
       <div className={classnames('w-full', 'mt-24')}>
         <Profile />
+        <div className={classnames('w-full', 'h-20')} id='experience'></div>
+          <div className={classnames('w-full', 'pt-8')}
+              style={{paddingLeft: '16.6rem'}}
+          >
+              <h2 className={classnames('text-2xl', 'text-bold')}>Experience</h2>
+          </div>
         <Experience />
-      </div>
+        </div>
       {/* </Container> */}
       <footer></footer>
     </div>

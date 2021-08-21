@@ -8,6 +8,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Modal from '@material-ui/core/Modal';
 import { makeStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
 
 
   const getModalStyle = () => {
@@ -24,7 +25,8 @@ import { makeStyles } from '@material-ui/core/styles';
   const useStyles = makeStyles((theme) => ({
     paper: {
       position: 'absolute',
-      width: 400,
+      width: 680,
+      height: 600,
       backgroundColor: theme.palette.background.paper,
       border: '2px solid #000',
       boxShadow: theme.shadows[5],
@@ -50,32 +52,50 @@ const Profile = () => {
 
     const body = (
         <div style={modalStyle} className={classes.paper}>
-            <h2>Contact Me</h2>
-            <ul>
-                <li className={classnames('flex', 'justify-center')}>
-                    <div>
+            <h2 className={classnames('w-full', 'flex', 'justify-center', 'text-2xl', 'text-gray-800', 'tracking-widest', 'pt-4', 'pb-6')}>CONTACT ME</h2>
+            <ul className={classnames('w-full')}>
+                <li className={classnames('w-full', 'flex', 'justify-center', 'items-center', 'h-20', 'pr-3')}>
+                    <div className={classnames('w-1/2')}>
                         <label>First Name</label>
-                        <input type="text" />
+                        <div>
+                            <TextField variant="outlined" />
+                        </div>
                     </div>
                     <div>
                         <label>Last Name</label>
-                        <input type="text" />
+                        <div>
+                            <TextField variant="outlined" />
+                        </div>
                     </div>
                 </li>
-                <li>
-                    <label>Email Name</label>
-                    <input type="email" />
+                <li className={classnames('w-full', 'h-12', 'mx-14', 'mt-6')}>
+                    <label className={classnames('my-2')}>Email</label>
+                    <div>
+                        <TextField variant="outlined" className={classnames('w-4/5')} />
+                    </div>
                 </li>
-                <li>
-                    <label>Message</label>
-                    <input type="textarea" />
+                <li className={classnames('w-full', 'h-48', 'mx-14', 'mt-12')}>
+                    <label className={classnames('my-2')}>Message</label>
+                    <div className={classnames('w-full', 'my-2')}>
+                        <TextField
+                            className={classnames('w-4/5')}
+                            multiline
+                            rows={4}
+                            defaultValue="Default Value"
+                            variant="outlined" />
+                    </div>
                 </li>
             </ul>
+            <div className={classnames('w-full', 'flex', 'justify-center', 'text-2xl', 'text-gray-800', 'tracking-widest', 'pt-4', 'pb-6')}>
+                <button
+                    className={classnames('border', 'border-gray-400', 'rounded', 'px-4', 'py-2', 'text-white')}
+                    style={{backgroundColor: '#CD853F'}}>Submit</button>
+            </div>
         </div>
       );
 
     return (
-    <div className={classnames('w-full')}>
+    <div className={classnames('w-full', 'pb-6')}>
       <div className={classnames('w-full', 'bg-cover', 'flex', 'justify-center')}
         style={{height: '40rem',
             backgroundColor: 'rgba(242, 133, 0, .6)',

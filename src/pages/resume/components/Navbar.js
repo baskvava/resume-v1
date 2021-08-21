@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
 
@@ -11,7 +12,9 @@ const Navbar = () => {
                     <p className={classnames('text-3xl', 'font-bold')}>Ying-Hsuan Chen</p>
                 </div>
                 <ul className={classnames('absolute', 'flex',  'right-0', 'justify-end', 'text-base', 'uppercase')}>
-                    <li className={classnames('px-4')}>Experience</li>
+                    <li className={classnames('px-4')}>
+                        <HashLink smooth to="#experience">Experience</HashLink>
+                    </li>
                     <li className={classnames('px-4')}>Education</li>
                     <li className={classnames('px-4')}>Skills</li>
                     <li className={classnames('px-4')}>Expertise</li>
