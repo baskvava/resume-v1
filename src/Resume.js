@@ -22,7 +22,7 @@ const Resume = () => {
           >
               <h2 className={classnames('text-2xl', 'text-bold')}>Experience</h2>
           </div>
-        <Experience />
+          <Experience />
         </div>
       {/* </Container> */}
       <footer></footer>

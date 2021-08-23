@@ -147,7 +147,7 @@ const Profile = () => {
             </div>
         {/* </div> */}
         </div>
-        <div
+        {/* <div
             className={classnames('w-full', 'flex', 'justify-center')}
         >
             <button type='button' onClick={handleOpen}>
@@ -167,7 +167,7 @@ const Profile = () => {
             >
                 {body}
             </Modal>
-        </div>
+        </div> */}
         {/* <div
             className={classnames('w-full', 'flex', 'justify-center', '-mt-16')}
         >
