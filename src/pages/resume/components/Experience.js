@@ -115,9 +115,46 @@ const Experience = () => {
         >
             <h2 className={classnames('text-2xl', 'text-bold')}>Experience</h2>
         </div> */}
-        {/* Lucid */}
+        
         <div className={classnames('w-full', 'h-0.5', 'bg-gray-200')}></div>
-
+            {/* Meta */}
+            <div className={classnames('w-full', 'flex', 'justify-center', 'py-10')}>
+                <FadeInLeft id="box-1">
+                <div className={classnames('text-left-fade-in')}>
+                    <div className={classnames('w-56')}>
+                        <p>May. 2022 - Aug. 2022</p>
+                        <p className={classnames('text-xl', 'text-bold', 'pb-2')}>Front End Engineer Intern</p>
+                    </div>
+                </div>
+                </FadeInLeft>
+                <div className={classnames('pl-10', 'pr-12')}>
+                    <div className={classnames('w-1', 'bg-gray-200')}>
+                        <div className={classnames('w-1', 'bg-black', 'h-1', 'rounded')}></div>
+                    </div>
+                    <div className={classnames('h-full', 'w-1', 'bg-gray-200')}></div>
+                </div>
+                <FadeInRight id="box-1">
+                <div className={classnames('text-right-fade-in')}
+                    style={{width: '38rem'}}
+                >
+                    <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>Meta</h2>
+                    {/* <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>A platform that enables enterprises to build AI applications without having to know how to build AI</p> */}
+                    {/* <div>
+                    • Improved user experience by supporting http live streaming (hls), user can autoplay previews (hls) when
+                    hover and dragging segments (hls) trained from AI model for e-commerce (React.js)
+                    </div>
+                    <div>
+                    • Earned totally over $1000/month income of three company contracts by building three mockups
+                    responsive websites and five MVP features on website in six months (React.js)
+                    </div>
+                    <div>
+                    • Reduced 100% time of manual user account creations by integrating 3 types auth flow in one week with
+                    Firebase - Password Authentication & Email Verification, Phone Number, Google Sign-in
+                    </div> */}
+                </div>
+                </FadeInRight>
+            </div>
+            {/* Lucid */}
             <div className={classnames('w-full', 'flex', 'justify-center', 'py-10')}>
                 <FadeInLeft id="box-1">
                 <div className={classnames('text-left-fade-in')}>
