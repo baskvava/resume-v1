@@ -132,13 +132,19 @@ const Profile = () => {
                             className={classnames('flex', 'justify-center', 'mt-12')}
                         >
                             <div className={classnames('p-5')}>
-                                <GitHubIcon fontSize="medium" style={{ color: 'black', fontSize: 30 }} />
+                                <a href="https://github.com/baskvava"  rel="noreferrer" target="_blank">
+                                    <GitHubIcon fontSize="medium" style={{ color: 'black', fontSize: 30 }} />
+                                </a>
                             </div>
                             <div className={classnames('p-5')}>
-                                <LinkedInIcon fontSize="medium" style={{ color: 'black', fontSize: 32 }} />
+                                <a href="https://www.linkedin.com/in/ying-hsuan-chen1/" rel="noreferrer" target="_blank">
+                                    <LinkedInIcon fontSize="medium" style={{ color: 'black', fontSize: 32 }} />
+                                </a>
                             </div>
                             <div className={classnames('p-5')}>
-                                <FacebookIcon fontSize="medium" style={{ color: 'black', fontSize: 32 }} />
+                                <a href="https://www.facebook.com/profile.php?id=100000179000387" rel="noreferrer" target="_blank">
+                                    <FacebookIcon fontSize="medium" style={{ color: 'black', fontSize: 32 }} />
+                                </a>
                             </div>
                         </li>
                     </ul>

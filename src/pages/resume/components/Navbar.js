@@ -15,7 +15,9 @@ const Navbar = () => {
                     <li className={classnames('px-4')}>
                         <HashLink smooth to="#experience">Experience</HashLink>
                     </li>
-                    <li className={classnames('px-4')}>Education</li>
+                    <li className={classnames('px-4')}>
+                        <HashLink smooth to="#education">Education</HashLink>
+                    </li>
                     <li className={classnames('px-4')}>Skills</li>
                     <li className={classnames('px-4')}>Expertise</li>
                     <li className={classnames('pl-4')}>Contact</li>

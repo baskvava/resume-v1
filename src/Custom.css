@@ -112,13 +112,13 @@
     filter: grayscale(100%);
     filter: gray;
 }
-
+/* 
 .boxLeft {
     opacity: 0;
     transition: opacity 0.5s;
-}
+} */
 
-.boxLeft[data-visible="true"] {
+.boxLeft {
     position: relative;
     animation: leftMoveIn 2s 0s ease;
     -webkit-animation: leftMoveIn 2s 0s ease;
@@ -127,12 +127,12 @@
 }
 
 
-.boxRight {
+/* .boxRight {
     opacity: 0;
     transition: opacity 0.5s;
-}
+} */
 
-.boxRight[data-visible="true"] {
+.boxRight {
     position: relative;
     animation: rightMoveIn 2s 0s ease;
     -webkit-animation: rightMoveIn 2s 0s ease;

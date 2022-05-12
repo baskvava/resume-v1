@@ -105,10 +105,10 @@ function useIntersection(options) {
     );
   }
 
-const Experience = () => {
+const Education = () => {
 
     return (
-        <div className={classnames('mt-8')} id='experience'>
+        <div className={classnames('mt-8')} id='education'>
       <div className={classnames('w-full')}>
         {/* <div className={classnames('w-full', 'py-10')}
             style={{paddingLeft: '16.8rem'}}
@@ -122,8 +122,8 @@ const Experience = () => {
                 <FadeInLeft id="box-1">
                 <div className={classnames('text-left-fade-in')}>
                     <div className={classnames('w-56')}>
-                        <p>Dec. 2020 - Jul. 2021</p>
-                        <p className={classnames('text-xl', 'text-bold', 'pb-2')}>Senior Frontend Software</p>
+                        <p>Aug. 2021 - Dec. 2022</p>
+                        {/* <p className={classnames('text-xl', 'text-bold', 'pb-2')}>Master of Computer Science</p> */}
                     </div>
                 </div>
                 </FadeInLeft>
@@ -137,8 +137,10 @@ const Experience = () => {
                 <div className={classnames('text-right-fade-in')}
                     style={{width: '38rem'}}
                 >
-                    <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>Lucid</h2>
-                    <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>A platform that enables enterprises to build AI applications without having to know how to build AI</p>
+                    <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>Rice University
+                      <p className={classnames('text-xl', 'text-bold', 'pb-2')}>Master of Computer Science</p>
+                    </h2>
+                    {/* <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>A platform that enables enterprises to build AI applications without having to know how to build AI</p>
                     <div>
                     • Improved user experience by supporting http live streaming (hls), user can autoplay previews (hls) when
                     hover and dragging segments (hls) trained from AI model for e-commerce (React.js)
@@ -150,7 +152,7 @@ const Experience = () => {
                     <div>
                     • Reduced 100% time of manual user account creations by integrating 3 types auth flow in one week with
                     Firebase - Password Authentication & Email Verification, Phone Number, Google Sign-in
-                    </div>
+                    </div> */}
                 </div>
                 </FadeInRight>
             </div>
@@ -159,8 +161,8 @@ const Experience = () => {
                 <FadeInLeft id="box-2">
                     <div className={classnames('text-left-fade-in')}>
                         <div className={classnames('w-56')}>
-                            <p>Aug. 2017 - Aug. 2019</p>
-                            <p className={classnames('text-xl', 'text-bold', 'pb-2')}>Engineer Staff II</p>
+                            <p>Sep. 2014 - Jul. 2017</p>
+                            {/* <p className={classnames('text-xl', 'text-bold', 'pb-2')}>M.B.A in Information Management</p> */}
                         </div>
                     </div>
                 </FadeInLeft>
@@ -175,8 +177,10 @@ const Experience = () => {
                         <div className={classnames('text-right-fade-in')}
                             style={{width: '38rem'}}
                         >
-                            <h2 className={classnames('text-3xl', 'text-bold', 'pb-4')}>Garmin International</h2>
-                            <p className={classnames('text-1xl', 'text-bold', 'text-gray-800', 'pb-2')}>Baidu Map with Leaflet Layer (Frontend)</p>
+                            <h2 className={classnames('text-3xl', 'text-bold', 'pb-4')}>National Central University
+                              <p className={classnames('text-xl', 'text-bold', 'pb-2')}>M.B.A in Information Management</p>
+                            </h2>
+                            {/* <p className={classnames('text-1xl', 'text-bold', 'text-gray-800', 'pb-2')}>Baidu Map with Leaflet Layer (Frontend)</p>
                             <div>
                                 • Refactored code to reduce 90 % maintenance time. Translated three types of coordinates WGS84, GCJ02,
                                 and BD09 from activity routes record of device to display on the Baidu map
@@ -194,7 +198,7 @@ const Experience = () => {
                             <div>
                             • Reduced 100% time of manual migration time by building daily synchronization cron jobs to migrate daily
                             updating data of users’ activity data from 14 Asia countries (Java, Spring Boot, MySQL)
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </FadeInRight>
@@ -204,8 +208,8 @@ const Experience = () => {
                 <FadeInLeft id="box-2">
                     <div className={classnames('text-left-fade-in')}>
                         <div className={classnames('w-56')}>
-                            <p>Aug. 2015 - Aug. 2016</p>
-                            <p className={classnames('text-xl', 'text-bold', 'pb-2')}>Co-founder & Software Engineer</p>
+                            <p>Sep. 2010 - Jun. 2014</p>
+                            {/* <p className={classnames('text-xl', 'text-bold', 'pb-2')}>B.A in Information Management</p> */}
                         </div>
                     </div>
                 </FadeInLeft>
@@ -220,8 +224,10 @@ const Experience = () => {
                         <div className={classnames('text-right-fade-in')}
                             style={{width: '38rem'}}
                         >
-                            <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>FRNCi</h2>
-                            <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>
+                            <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>National Dong Hwa University 
+                              <p className={classnames('text-xl', 'text-bold', 'pb-2')}>B.A in Information Management</p>
+                            </h2>
+                            {/* <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>
                                 A social travel platform that connects travelers with locals who share common interests and lifestyle
                             </p>
                             <div>
@@ -229,7 +235,7 @@ const Experience = () => {
                             </div>
                             <div>
                             • Designed the whole system and architecture of frontend, backend, and database to solve the business need (PHP, MySQL, Bootstrap.js, AWS)
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </FadeInRight>
@@ -241,4 +247,4 @@ const Experience = () => {
     );
   }
 
-export default Experience;
+export default Education;
