@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import classnames from 'classnames';
 import '../../../Custom.css';
+import metaDialog from '../static/meta_dalog.png'
 import profile from '../static/profile_1.jpg'
 import rice_bg from '../static/rice.jpg'
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -139,18 +140,16 @@ const Experience = () => {
                 >
                     <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>Meta</h2>
                     {/* <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>A platform that enables enterprises to build AI applications without having to know how to build AI</p> */}
-                    {/* <div>
-                    • Improved user experience by supporting http live streaming (hls), user can autoplay previews (hls) when
-                    hover and dragging segments (hls) trained from AI model for e-commerce (React.js)
+                    <div>
+                    • Built Ads entry point on Facebook, involving 10 million+ users. (React, React hooks, graphQL, Relay, TypeScript)
                     </div>
                     <div>
-                    • Earned totally over $1000/month income of three company contracts by building three mockups
-                    responsive websites and five MVP features on website in six months (React.js)
+                    • Built an A/B testing of Ads entry point feature that resulted in increasing 36% conversion rate.
                     </div>
                     <div>
-                    • Reduced 100% time of manual user account creations by integrating 3 types auth flow in one week with
-                    Firebase - Password Authentication & Email Verification, Phone Number, Google Sign-in
-                    </div> */}
+                    • Refactor dialog reactions header bar with Relay to improve data retrieve performance, involving all Facebook users.
+                    <img alt="meta-dialog" style={{padding: '2rem 2rem 2rem 0'}} src={`${metaDialog}`} />
+                    </div>
                 </div>
                 </FadeInRight>
             </div>
