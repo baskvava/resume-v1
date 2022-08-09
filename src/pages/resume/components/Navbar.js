@@ -9,7 +9,9 @@ const Navbar = () => {
             <div className={classnames('relative', 'w-full', 'flex', 'items-center')}>
                 {/* <div className={classnames('flex', 'justify-start')}> */}
                 <div className={classnames('absolute', 'left-0')}>
-                    <p className={classnames('text-3xl', 'font-bold')}>Ying-Hsuan Chen</p>
+                    <HashLink smooth to="#main">
+                        <p className={classnames('text-3xl', 'font-bold')}>Ying-Hsuan Chen</p>
+                    </HashLink>
                 </div>
                 <ul className={classnames('absolute', 'flex',  'right-0', 'justify-end', 'text-base', 'uppercase')}>
                     <li className={classnames('px-4')}>
@@ -18,9 +20,9 @@ const Navbar = () => {
                     <li className={classnames('px-4')}>
                         <HashLink smooth to="#education">Education</HashLink>
                     </li>
-                    <li className={classnames('px-4')}>Skills</li>
-                    <li className={classnames('px-4')}>Expertise</li>
-                    <li className={classnames('pl-4')}>Contact</li>
+                    <li className={classnames('px-4')} style={{cursor: 'not-allowed'}}>Skills</li>
+                    <li className={classnames('px-4')} style={{cursor: 'not-allowed'}}>Expertise</li>
+                    <li className={classnames('pl-4')} style={{cursor: 'not-allowed'}}>Contact</li>
                 </ul>
                 {/* <div className={classnames('absolute', 'right-0', 'flex')}>
                     <div>Experience</div>

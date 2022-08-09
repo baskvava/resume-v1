@@ -95,7 +95,7 @@ const Profile = () => {
       );
 
     return (
-    <div className={classnames('w-full', 'pb-6')}>
+    <div className={classnames('w-full', 'pb-6')} id='main'>
       <div className={classnames('w-full', 'bg-cover', 'flex', 'justify-center')}
         style={{height: '40rem',
             backgroundColor: 'rgba(242, 133, 0, .6)',

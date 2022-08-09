@@ -9,8 +9,9 @@ import classnames from 'classnames';
 const Resume = () => {
   return (
     <div 
-    className={classnames('w-full', 'h-screen')}
-    style={{backgroundColor: 'white'}}>
+      className={classnames('w-full', 'h-screen')}
+      style={{backgroundColor: 'white'}}
+    >
       <header>
         <Navbar />
       </header>
