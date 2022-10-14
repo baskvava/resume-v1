@@ -138,7 +138,7 @@ const Experience = () => {
                 <div className={classnames('text-right-fade-in')}
                     style={{width: '38rem'}}
                 >
-                    <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>Meta</h2>
+                    <h2 className={classnames('text-3xl', 'text-bold', 'pb-2')}>Meta (Facebook)</h2>
                     {/* <p className={classnames('text-sm', 'text-gray-700', 'pb-4')}>A platform that enables enterprises to build AI applications without having to know how to build AI</p> */}
                     <div>
                     • Built Ads entry point on Facebook, involving 10 million+ users. (React, React hooks, graphQL, Relay, TypeScript)
